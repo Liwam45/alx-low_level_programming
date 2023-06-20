@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-int msin(void)
+int main(void)
 
 {
 	_putchar('_');

@@ -17,11 +17,11 @@ int main(void)
 	{
 		if (f10 > 0)
 			printf("%lu", f10);
-		initial0s = numLength(mx) - 1 - numLength(f1)
-			while (f10 > 0 && intial0s > 0)
+		initail0s = numLength(mx) - 1 - numLength(f1);
+			while (f10 > 0 && intail0s > 0)
 			{
-				printf('%i", 0);
-				initial0s--;
+				printf("%i", 0);
+				initail0s--;
 			}
 		printf("%lu", f1);
 

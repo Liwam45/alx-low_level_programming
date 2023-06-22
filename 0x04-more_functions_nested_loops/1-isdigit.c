@@ -2,8 +2,8 @@
 
 
 /**
- * _isdigit - Check if numbers are 0 - 9 
- * @x: The number to be checked
+ * _isdigit - check if numbers are 0 - 9 
+ * @x: Number to be checked
  *
  * Return: 0 or 1
  */
@@ -15,5 +15,8 @@ int _isdigit(int x)
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }

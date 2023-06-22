@@ -5,7 +5,7 @@
  * Return: 10 times of th nembers since 0 up to 14
  */
 
-void more_number(void)
+void more_numbers(void)
 
 {
 

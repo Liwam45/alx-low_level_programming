@@ -18,7 +18,7 @@ int main(void)
 		if (f10 > 0)
 			printf("%lu", f10);
 		initail0s = numLength(mx) - 1 - numLength(f1);
-			while (f10 > 0 && intail0s > 0)
+			while (f10 > 0 && initail0s > 0)
 			{
 				printf("%i", 0);
 				initail0s--;
@@ -36,7 +36,7 @@ int main(void)
 			printf(", ");
 		else
 			printf("\n");
-		i++
+		i++;
 	}
 	return (0);
 }

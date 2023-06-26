@@ -13,14 +13,14 @@ int main(void)
 
 {
 
-	char low;
+	char a;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a);
 
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
-	putchar('\n');
+	for (a = 'A'; a <= 'Z'; a++)
+		putchar(a);
+	putchar('\n);
 
 	return (0);
 }

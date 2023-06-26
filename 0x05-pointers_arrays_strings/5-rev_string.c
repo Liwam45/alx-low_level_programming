@@ -3,12 +3,11 @@
 
 /**
  * rev_string - Reverses a stirng
- * @S:The strimg to be modified
+ * @s: The strimg to be modified
  * Return: void
  */
 
 void rev_string(char *s)
-
 {
 	int len = 0, index = 0;
 	char tmp;
@@ -20,6 +19,6 @@ void rev_string(char *s)
 	{
 		tmp = s[index];
 		s[index] = s[len - index - 1];
-		s[len - index- 1] = tmp;
+		s[len - index - 1] = tmp;
 	}
 }

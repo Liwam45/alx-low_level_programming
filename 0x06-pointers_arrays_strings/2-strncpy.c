@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 	
 /**
  * _strncpy - Copies at most an inputted number

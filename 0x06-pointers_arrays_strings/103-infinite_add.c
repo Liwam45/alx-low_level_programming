@@ -8,6 +8,7 @@
  */
 
 void rev_string(char *n)
+
 {
 	int i = 0;
 	int j = 0;
@@ -18,13 +19,15 @@ void rev_string(char *n)
 		i++;
 	}
 	i--;
-		for (j = 0; j < i; j++, i--)
-		{
-			temp = *(n + j);
-			*(n + j) = *(n + i);
-			*(n + j) = temp;
-		}
+
+	for (j = 0; j < i; j++, i--)
+	{
+		temp = *(n + j);
+		*(n + j) = *(n + j);
+		*(n + i) = temp;
+	}
 }
+
 
 /**
  * infinite_add - add 2 numbers together

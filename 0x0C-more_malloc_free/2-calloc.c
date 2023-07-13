@@ -5,7 +5,7 @@
  * _calloc - ...
  * @nmemb: number of numbers
  * @size: size
- * return: nothing
+ * Return: nothing
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)

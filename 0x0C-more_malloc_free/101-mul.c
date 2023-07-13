@@ -24,7 +24,7 @@ int is_digit(char *s)
 
 
 /**
- * _strlen - returns the length olf a string
+ * _strlen - returns the length of a string
  * @s: string to evaluate
  * Return: the length of the string
  */
@@ -41,7 +41,7 @@ int _strlen(char *s)
 }
 
 /**
- * errors: it handles errors for main
+ * errors - it handles errors for main
  */
 
 void errors(void)
@@ -83,6 +83,7 @@ int main(int argc, char *argv[])
 			digit2 = s2[len2] - '0';
 			carry += result[len1 + len2 + 1] + (digit1 * digit2);
 			result[len1 + len2 + 1] = carry % 10;
+			carry /= 10;
 		}
 		if (carry > 0)
 			result[len1 + len2 + 1] += carry;

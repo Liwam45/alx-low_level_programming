@@ -6,7 +6,7 @@
  * @s1: input
  * @s2: input
  * @n: ...
- * return: nothing.
+ * Return: nothing.
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)

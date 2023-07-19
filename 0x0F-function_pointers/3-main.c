@@ -7,10 +7,11 @@
  * main - ...
  * @argc: ...
  * @argv: ...
+ *
  * Return: ...
  */
 
-int main(int argc, char *[])
+int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
 
@@ -28,6 +29,6 @@ int main(int argc, char *[])
 		exit(99);
 	}
 
-	printf("%d\n", oprt(atoi(argv[i]), atoi(argv[3])));
+	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }

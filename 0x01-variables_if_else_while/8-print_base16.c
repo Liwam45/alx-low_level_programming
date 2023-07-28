@@ -15,13 +15,13 @@ int main(void)
 {
 
 	int d;
-	char low;
+	char l;
 
 	for (d = '0'; d <= '9'; d++)
 	putchar(d);
 
-	for (low = 'a'; low <= 'f'; low++)
-	putchar(low);
+	for (l = 'a'; l <= 'f'; l++)
+	putchar(l);
 	putchar('\n');
 
 	return (0);
